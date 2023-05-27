@@ -3,6 +3,7 @@
 SkullGAN is a novel generative adversarial network (GAN) for the generation of synthetic computed tomography (CT) slices of the human skull. It has been developed to address the prevalent bottleneck in machine learning healthcare applications - the scarcity of carefully curated medical images.
 
 Paper: [arXiv](https://arxiv.org/list/cs.AI/recent)
+
 Project Page: [KBP Lab](https://kbplab.stanford.edu/SkullGAN/)
 
 ## Abstract
