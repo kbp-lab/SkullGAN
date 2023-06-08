@@ -299,7 +299,7 @@ def main(data, fig_path, params, pretrain = False, pretrained_path = ""):
 
             ## ----- UPDATE DISPLAY ----- ##
 
-            if epoch > 0: # and epoch % 2 == 0:  
+            if epoch > 0 and epoch % 5 == 0:  
 
                 # Generate a batch of fake images
                 with torch.no_grad():
