@@ -15,7 +15,9 @@ The results show that SkullGAN is capable of generating large numbers of synthet
 
 ## Getting Started
 
-(Fill with installation instructions and usage guide.)
+We've included two ways to train SkullGAN, one through the command-line (source code located in 'cli/'), and one through a Jupyter notebook ('SkullGAN - Train.ipynb'). The Jupyter notebook is self-contained, and requires only that you have the necessary libraries and packages installed. While restrictions prevent us from uploading our training dataset, which consists of skull CT scans of real patients, we have included both our pre-trained model (Celeb-A), and the final SkullGAN model presented in the paper. These can be downloaded at this link: [SkullGAN PyTorch Models](https://drive.google.com/drive/folders/1KRLXFMssKKuQwXL5J9fVorhVGbZaSeK4?usp=sharing)
+
+
 
 ## Examples
 
