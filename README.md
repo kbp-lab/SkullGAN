@@ -1,5 +1,4 @@
 # SkullGAN
-![](https://i.imgur.com/waxVImv.png)
 
 [Kasra Naftchi-Ardebili](https://bioengineering.stanford.edu/people/kasra-naftchi-ardebili)†, [Karanpartap Singh](https://karanps.com)†, Reza Pourabolghasem, Pejman Ghanouni, Gerald R. Popelka, [Kim Butts Pauly](https://kbplab.stanford.edu).
 
