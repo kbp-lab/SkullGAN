@@ -4,7 +4,7 @@
 
 † denotes equal contribution.
 
-**Stanford University Schools of Engineering and Medicine**
+**Stanford University, Schools of Engineering and Medicine**
 
 <hr>
 
