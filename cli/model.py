@@ -68,13 +68,10 @@ class GeneratorNoise(nn.Module):
     
     def forward(self, x):
         clone = torch.clone(x)
-        pixel_max = torch.amax(clone, (0, 1), True)   # remove
         channel_max = torch.amax(clone, (2, 3), True)
         channel_min = torch.amin(clone, (2, 3), True)        
         channel_std = torch.std(x, dim=(2, 3), keepdims=True)
-        pixel_std = torch.std(x, dim=(0, 1), keepdims=True)   # remove     
         channel_mean = torch.mean(x, dim=(2, 3), keepdims=True)
-        pixel_mean = torch.mean(x, dim=(2, 3), keepdims=True)  # remove
         noise = torch.empty_like(x).normal_(mean=0.0, std=1.0).to(self.device)
 
         if self.std == 'fixed':
