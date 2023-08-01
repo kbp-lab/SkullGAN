@@ -26,7 +26,7 @@ The results show that SkullGAN is capable of generating large numbers of synthet
 
 SkullGAN was written in Python v3.9.2 using PyTorch v1.9.0. We've included two ways to train SkullGAN, one through the command-line (source code located in `cli/`), and one through a Jupyter notebook ('SkullGAN - Train.ipynb'). The Jupyter notebook is self-contained, and requires only that you have the necessary libraries and packages installed. Meanwhile, the command-line implementation is separated into three files: models, functions, and skullgan. All training code and hyperparameters can be edited in `skullgan.py`, and this file can be run through a command-line using `python3 skullgan.py`. The provided implementation will display progress bars to denote the current training progress, and save a batch of generated images to the disk after every epoch of training. Once the desired number of epochs have been reached, the trained model and a batch of 1,000 sample images will be saved to the disk. 
 
-You can download both our pre-trained model (trained on 100,000 images from the Celeb-A dataset [1](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)), and the final SkullGAN model presented in the paper at this link: [SkullGAN Model Files - PyTorch](https://drive.google.com/drive/folders/1KRLXFMssKKuQwXL5J9fVorhVGbZaSeK4?usp=sharing).
+You can download both our pre-trained model (trained on 100,000 images from the Celeb-A dataset [[1]](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)), and the final SkullGAN model presented in the paper at this link: [SkullGAN Model Files - PyTorch](https://drive.google.com/drive/folders/1KRLXFMssKKuQwXL5J9fVorhVGbZaSeK4?usp=sharing).
 
 ## Datasets
 
