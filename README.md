@@ -30,7 +30,7 @@ You can download both our pre-trained model (trained on 100,000 images from the 
 
 ## Datasets
 
-We will release our training dataset within the coming weeks. 
+We will release our training dataset of anonymized human skull CTs within the coming weeks. 
 
 ## Citation
 
