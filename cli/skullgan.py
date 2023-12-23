@@ -374,14 +374,6 @@ def main(data, fig_path, params, pretrain = False, pretrained_path = ""):
     np.save(fig_path + "SkullGAN_" + now + "/fake_skulls.npy", fake_slices)
     
 def prepare_data(path, fig_path = "", display = False):
-    
-    ## ----------- LOAD SAMPLES -----------
-    ## SLICES               : 456    SAMPLES 
-    ## SLICES_2K            : 2414   SAMPLES 
-    ## SLICES_RESCALED      : 12074  SAMPLES 
-    ## CELEB_50K            : 50000  SAMPLES
-    ## CELEB_100k           : 100000 SAMPLES
-    ## ------------------------------------
 
     slices_org = np.load(path)
     nsamples = len(slices_org)
