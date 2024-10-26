@@ -35,7 +35,7 @@ If you found SkullGAN helpful for your own research or applications, please cite
     @article{SkullGAN2023,
         title={SkullGAN: Synthetic Skull CT Generation with Generative Adversarial Networks},
         author={Kasra Naftchi-Ardebil, Karanpartap Singh, Reza Pourabolghasem, Pejman Ghanouni, Gerald R. Popelka, Kim Butts Pauly},
-        journal={arXiv: },
+        journal={arXiv: 2308.00206},
         year={2023}
     }
 ```
