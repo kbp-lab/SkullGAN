@@ -28,10 +28,6 @@ SkullGAN was written in Python v3.9.2 using PyTorch v1.9.0. We've included two w
 
 You can download both our pre-trained model (trained on 100,000 images from the Celeb-A dataset [[1]](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)), and the final SkullGAN model presented in the paper at this link: [SkullGAN Model Files - PyTorch](https://drive.google.com/drive/folders/1KRLXFMssKKuQwXL5J9fVorhVGbZaSeK4?usp=sharing).
 
-## Datasets
-
-We will release our training dataset of anonymized human skull CTs within the coming weeks. 
-
 ## Citation
 
 If you found SkullGAN helpful for your own research or applications, please cite it using the following BibTeX:
