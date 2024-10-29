@@ -32,10 +32,10 @@ You can download both our pre-trained model (trained on 100,000 images from the 
 
 If you found SkullGAN helpful for your own research or applications, please cite it using the following BibTeX:
 ```bibtex
-    @article{SkullGAN2023,
-        title={SkullGAN: Synthetic Skull CT Generation with Generative Adversarial Networks},
-        author={Kasra Naftchi-Ardebil, Karanpartap Singh, Reza Pourabolghasem, Pejman Ghanouni, Gerald R. Popelka, Kim Butts Pauly},
-        journal={arXiv: 2308.00206},
-        year={2023}
-    }
+@article{SkullGAN2023,
+    title={SkullGAN: Synthetic Skull CT Generation with Generative Adversarial Networks},
+    author={Kasra Naftchi-Ardebil, Karanpartap Singh, Reza Pourabolghasem, Pejman Ghanouni, Gerald R. Popelka, Kim Butts Pauly},
+    journal={arXiv: 2308.00206},
+    year={2023}
+}
 ```
